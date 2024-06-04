@@ -1,0 +1,45 @@
+.conatiner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.conatiner>div {
+  width: 40%;
+  padding: 20px;
+  transition: 0.3s;
+
+}
+
+.conatiner>div:hover {
+  color: #000000;
+  box-shadow: 0px 0px 30px rgb(109, 106, 106);
+}
+
+.innnerDiv {
+  display: flex;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+}
+
+/* .innerP {
+  width: 167px;
+} */
+
+.footer {
+  height: 30px;
+  display: flex;
+  justify-content: end;
+
+}
+
+.footer>button {
+  position: fixed;
+  margin-right: 30px;
+  padding: 0.9em 1.5em;
+  font-size: 1.2em;
+  background-color: #746f6f;
+}
